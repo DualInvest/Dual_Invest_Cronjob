@@ -39,7 +39,7 @@ admin.initializeApp({
 const firestore = admin.firestore();
 
 function getRandomInterestRate() {
-  const interestRates = [0.012, 0.024, 0.036, 0.048, 0.060, 0.072];
+  const interestRates = [0.012, 0.0024, 0.0036, 0.0048, 0.0060, 0.0072];
   return interestRates[Math.floor(Math.random() * interestRates.length)];
 }
 
